@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
 }
 
 * {
@@ -13,7 +13,7 @@ nav {
   display: flex; /* 1 */
   justify-content: space-between; /* 2 */
   padding: 1rem 2rem; /* 3 */
-  background: #0b3c7a; /* 4 */
+  background: #659b48; /* 4 */
 }
 
 nav ul {
@@ -41,8 +41,8 @@ a {
 
 header,
 footer {
-  border-top: 2px solid #3498db;
-  background-color: #0b3c7a;
+  border-top: 2px solid #4c7636;
+  background-color: #659b48;
   color: white;
   text-align: center;
   padding: 1.25rem;
@@ -101,18 +101,23 @@ footer {
 }
 
 .card-front {
-  background-color: #e9e9e9;
-  color: #333;
+  background-color: #d7eacc;
+  color: #659b48;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .card-back {
-  background-color: #333;
+  background-color: #659b48;
   color: #fff;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card-back a {
+  color: #d7eacc;
+  font-size: 25px;
 }
